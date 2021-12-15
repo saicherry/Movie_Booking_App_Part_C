@@ -1,5 +1,4 @@
 module.exports = mongoose => {
-  
     const Genre = mongoose.model(
         "genres",
         mongoose.Schema(
