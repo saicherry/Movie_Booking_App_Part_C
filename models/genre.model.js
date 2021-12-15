@@ -6,9 +6,7 @@ module.exports = mongoose => {
             genreid:Number,
             genre:String
           }
-
         )
-        
       );
       return Genre;
     };

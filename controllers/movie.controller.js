@@ -2,8 +2,7 @@ var express = require('express');
 const db = require("../models");
 const Movie = db.movies;
 
-async function findAllMovies(req,res){
-    
+async function findAllMovies(req,res){   
     /**
      * status --> RESLESED // Published
      * 
