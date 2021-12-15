@@ -7,7 +7,6 @@ var express = require("express"),
 // Running on posrt 9000
 const PORT = 8085;
 var app = express();
-
 var corsOptions = {
   origin: "http://localhost:"+PORT
 };

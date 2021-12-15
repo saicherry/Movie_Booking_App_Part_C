@@ -7,7 +7,6 @@ async function findAllArtists(req,res){
     //console.log(data);
     res.json({artists : data});
 }
-
 module.exports={
     findAllArtists
 }

@@ -1,8 +1,7 @@
 module.exports = mongoose => {
     const Movie = mongoose.model(   
         "movie",
-        mongoose.Schema(
-          
+        mongoose.Schema(  
           {
             movieid :Number,
             title :String,

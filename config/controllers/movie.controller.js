@@ -9,7 +9,6 @@ async function findAllMovies(req,res){
      * 
      * Multiple query Paramenter
      */
-    
     try{
     let status= await req.query.status;
     console.log(status);
