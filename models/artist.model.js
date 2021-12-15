@@ -10,7 +10,6 @@ module.exports = mongoose => {
             profile_url:String,
             movies: [String]
           }
-
         )
       );
       return Artist;

@@ -4,10 +4,8 @@ var express = require("express"),
   path = require("path"),
   cors = require("cors");  //TODO:
   bodyParser = require("body-parser");
-
 // Running on posrt 9000
 const PORT = 8085;
-
 
 var app = express();
 
