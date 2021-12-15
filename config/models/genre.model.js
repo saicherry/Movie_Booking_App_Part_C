@@ -7,7 +7,6 @@ module.exports = mongoose => {
             genre:String
           }
         )
-      );
-      
+      );  
       return Genre;
     };
