@@ -7,7 +7,6 @@ async function findAllGenres(req,res){
     //console.log(data);
     res.json({ genres : data});
 }
-
 module.exports={
     findAllGenres
 }
