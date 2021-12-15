@@ -3,6 +3,7 @@ const jwt = require("jsonwebtoken");
 const {atob,btoa}=require("b2a");
 const User = db.users;
 exports.signUp = (req, res) => {
+  
   console.log(req.body)
   if (!req.body.email && !req.body.password) {
     res
